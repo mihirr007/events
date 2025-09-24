@@ -10,7 +10,7 @@
     <description>Event Description: A world-class ballet performance featuring Tchaikovsky classics, </description>
     <status>Status: Scheduled, </status>
   </event>
-
+<separator> === </separator>
   <event id="evt_20251010_002">
     <name>Event Name: Jazz Night, </name>
     <music_hall_url>Associated Music Hall URL: https://musichall.com/events/jazz-night, </music_hall_url>
