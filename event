@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events generated_at="2025-09-24T10:00:00Z">
+  <event id="evt_20251003_001">
+    <name>Event Name: American Ballet, </name>
+    <music_hall_url>Associated Music Hall URL: https://musichall.com/events/american-ballet, </music_hall_url>
+    <ticketmaster_url>Associated Ticketmaster URL: https://www.ticketmaster.com/event/abc123, </ticketmaster_url>
+    <date>Date: 2025-10-03, </date>
+    <time>Time: 19:30, </time>
+    <venue>Venue: Main Music Hall, </venue>
+    <description>Event Description: A world-class ballet performance featuring Tchaikovsky classics, </description>
+    <status>Status: Scheduled, </status>
+  </event>
+
+  <event id="evt_20251010_002">
+    <name>Event Name: Jazz Night, </name>
+    <music_hall_url>Associated Music Hall URL: https://musichall.com/events/jazz-night, </music_hall_url>
+    <ticketmaster_url>Associated Ticketmaster URL: https://www.ticketmaster.com/event/def456, </ticketmaster_url>
+    <date>Date: 2025-10-10, </date>
+    <time>Time: 20:00, </time>
+    <venue>Venue: South Hall, </venue>
+    <description>Event Description: An evening of contemporary jazz with special guest artists, </description>
+    <status>Status: Ongoing — follow live updates at https://musichall.com/events/jazz-night, </status>
+  </event>
+</events>
