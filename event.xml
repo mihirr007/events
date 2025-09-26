@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <events generated_at="2025-09-24T10:00:00Z">
+
   <event id="evt_001">
     <text>
       === EVENT START | ID: evt_001 ===
       Event Name: American Ballet, 
       Associated Music Hall URL: https://musichall.com/events/american-ballet, 
       Associated Ticketmaster URL: https://www.ticketmaster.com/event/abc123, 
+      Status: Scheduled, 
       Date: 2025-10-03, 
       Time: 19:30, 
       Venue: Main Music Hall, 
       Event Description: A world-class ballet performance featuring Tchaikovsky classics, 
-      Status: Scheduled, 
+      Event Image URL: https://musichall.com/images/events/american-ballet-main.jpg, 
       === EVENT END ===
     </text>
   </event>
@@ -21,12 +23,53 @@
       Event Name: Jazz Night, 
       Associated Music Hall URL: https://musichall.com/events/jazz-night, 
       Associated Ticketmaster URL: https://www.ticketmaster.com/event/def456, 
+      Status: Ongoing — follow live updates at https://musichall.com/events/jazz-night, 
       Date: 2025-10-10, 
       Time: 20:00, 
       Venue: South Hall, 
       Event Description: An evening of contemporary jazz with special guest artists, 
-      Status: Ongoing — follow live updates at https://musichall.com/events/jazz-night, 
+      Event Image URL: https://musichall.com/images/events/jazz-night-hero.jpg, 
       === EVENT END ===
     </text>
   </event>
+
+  <!-- Same event name, two shows on different days, SAME Ticketmaster URL -->
+  <event id="evt_003">
+    <text>
+      === EVENT START | ID: evt_003 ===
+      Event Name: The Nutcracker - World Ballet Company, 
+      Associated Music Hall URL: https://musichall.com/events/the-nutcracker-world-ballet-company, 
+      Associated Ticketmaster URL: https://www.ticketmaster.com/event/080062BEB3723AAC, 
+      Status: Scheduled, 
+      Show 1 Date: 2025-12-20, 
+      Show 1 Time: 20:00, 
+      Show 2 Date: 2025-12-21, 
+      Show 2 Time: 14:00, 
+      Venue: Main Music Hall, 
+      Event Description: The beloved holiday classic performed by World Ballet Company with lavish sets and costumes, 
+      Event Image URL: https://musichall.com/images/events/nutcracker-world-ballet-company.jpg, 
+      === EVENT END ===
+    </text>
+  </event>
+
+  <!-- Same event name, two shows on same day, DIFFERENT Ticketmaster URLs -->
+  <event id="evt_004">
+    <text>
+      === EVENT START | ID: evt_004 ===
+      Event Name: The Music of The Lord of the Rings, 
+      Associated Music Hall URL: https://musichall.com/events/music-of-the-lord-of-the-rings, 
+      Status: Scheduled, 
+      Show 1 Date: 2025-11-11, 
+      Show 1 Time: 16:00, 
+      Show 1 Ticketmaster URL: https://www.ticketmaster.com/event/08006166022B4D0D, 
+      Show 2 Date: 2025-11-11, 
+      Show 2 Time: 20:00, 
+      Show 2 Ticketmaster URL: https://www.ticketmaster.com/event/0800616602434D1C, 
+      Venue: Great Hall, 
+      Event Description: A symphonic celebration of Howard Shore’s iconic scores featuring full orchestra and chorus, 
+      Event Image URL: https://musichall.com/images/events/music-of-lotr-orchestra.jpg, 
+      === EVENT END ===
+    </text>
+  </event>
+
 </events>
